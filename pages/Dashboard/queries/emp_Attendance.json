@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "sample2",
+    "name": "emp_Attendance",
     "datasource": {
       "name": "data",
       "pluginId": "mongo-plugin",
@@ -29,10 +29,10 @@
           }
         },
         "body": {
-          "data": "{\n  \"insert\": \"add_project\",\n  \"documents\": [\n    {\n      \"ClientEmail\": \"new value\",\n      \"ClientName\": \"new value\",\n      \"EndDate\": \"new value\",\n      \"ProjectName\": \"new value\",\n      \"StartDate\": \"new value\",\n      \"TeamSize\": \"new value\",\n      \"_id\": ObjectId(\"a_valid_object_id_hex\"),\n    }\n  ]\n}\n"
+          "data": "{\n  \"insert\": \"Attendance\",\n  \"documents\": [\n    {\n      \"Checkin\": \"new value\",\n      \"Date\": \"new value\",\n      \"Department\": \"new value\",\n      \"Employeeid\": \"new value\",\n      \"Employeename\": \"new value\",\n      \"_id\": ObjectId(\"a_valid_object_id_hex\"),\n      \"checkout\": \"new value\",\n    }\n  ]\n}\n"
         },
         "collection": {
-          "data": "add_project"
+          "data": "Attendance"
         },
         "command": {
           "data": "INSERT"
@@ -77,7 +77,7 @@
         },
         "insert": {
           "documents": {
-            "data": "[{      \"ClientEmail\": \"{{cemail.text}}\",\n      \"ClientName\": \"{{ClientN.text}}\",\n      \"EndDate\": \"{{Edate.formattedDate}}\",\n      \"ProjectName\": \"{{ProjectN.text}}\",\n      \"StartDate\": \"{{StartD.formattedDate}}\",\n      \"TeamSize\": \"{{TeamS.text}}\",\n     \n}]"
+            "data": "[{      \"Checkin\": \"{{empin.text}}\",\n      \"Date\": \"{{empdate.formattedDate}}\",\n      \"Department\": \"{{empdep.text}}\",\n      \"Employeeid\": \"{{empid.text}}\",\n      \"Employeename\": \"{{empname.text}}\",\n      \"checkout\": \"{{empout.text}}\",\n}]"
           }
         },
         "smartSubstitution": {
@@ -106,19 +106,19 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "ClientN.text",
-      "Edate.formattedDate",
-      "ProjectN.text",
-      "StartD.formattedDate",
-      "TeamS.text",
-      "cemail.text"
+      "empdate.formattedDate",
+      "empdep.text",
+      "empid.text",
+      "empin.text",
+      "empname.text",
+      "empout.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_sample2",
+  "id": "Dashboard_emp_Attendance",
   "deleted": false,
-  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f6f7ccdb642f4c0d66e60a"
+  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f87b3f58097d7b3ea2c49e"
 }

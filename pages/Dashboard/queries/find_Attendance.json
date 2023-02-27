@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "get2",
+    "name": "find_Attendance",
     "datasource": {
       "name": "data",
       "pluginId": "mongo-plugin",
@@ -29,10 +29,10 @@
           }
         },
         "body": {
-          "data": "{\n  \"find\": \"add_project\",\n  \"filter\": {\n    \"ClientEmail\": \"raj@gmail.com\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
+          "data": "{\n  \"find\": \"Attendance\",\n  \"filter\": {\n    \"_id\": ObjectId(\"id_to_query_with\")\n  }\n}\n"
         },
         "collection": {
-          "data": "add_project"
+          "data": "Attendance"
         },
         "command": {
           "data": "FIND"
@@ -60,15 +60,15 @@
         },
         "find": {
           "query": {
+            "data": "{\"_id\": ObjectId({{Table4.selectedRow._id}})}"
+          },
+          "skip": {
+            "data": ""
+          },
+          "sort": {
             "data": ""
           },
           "limit": {
-            "data": "10"
-          },
-          "sort": {
-            "data": "{\"_id\": 1}"
-          },
-          "skip": {
             "data": ""
           },
           "projection": {
@@ -97,17 +97,23 @@
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.find.query.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Table4.selectedRow._id"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_get2",
+  "id": "Dashboard_find_Attendance",
   "deleted": false,
-  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f6fae1a5c7ae068db417e1"
+  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f86220ef7de7148bd8d2e8"
 }

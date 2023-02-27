@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "update2",
+    "name": "sam_project",
     "datasource": {
       "name": "data",
       "pluginId": "mongo-plugin",
@@ -29,13 +29,13 @@
           }
         },
         "body": {
-          "data": "{\n  \"update\": \"add_project\",\n  \"updates\": [\n    {\n      \"q\": {\n        \"_id\": ObjectId(\"id_of_document_to_update\")\n      },\n      \"u\": { \"$set\": { \"ClientEmail\": \"new value\" } }\n    }\n  ]\n}\n"
+          "data": "{\n  \"insert\": \"data2\",\n  \"documents\": [\n    {\n      \"EndDate\": \"new value\",\n      \"ProjectName\": \"new value\",\n      \"Teamsize\": \"new value\",\n      \"_id\": ObjectId(\"a_valid_object_id_hex\"),\n      \"clientName\": \"new value\",\n      \"clientemail\": \"new value\",\n      \"startDate\": \"new value\",\n    }\n  ]\n}\n"
         },
         "collection": {
-          "data": "add_project"
+          "data": "data2"
         },
         "command": {
-          "data": "UPDATE"
+          "data": "INSERT"
         },
         "count": {
           "query": {
@@ -77,7 +77,7 @@
         },
         "insert": {
           "documents": {
-            "data": ""
+            "data": "[{      \"EndDate\": \"{{Edate.formattedDate}}\",\n      \"ProjectName\": \"{{ProjectN.text}}\",\n      \"Teamsize\": \"{{TeamS.text}}\",\n     \n      \"clientName\": \"{{ClientN.text}}\",\n      \"clientemail\": \"{{cemail.text}}\",\n      \"startDate\": \"{{Sdate.formattedDate}}\",\n}]"
           }
         },
         "smartSubstitution": {
@@ -85,13 +85,13 @@
         },
         "updateMany": {
           "limit": {
-            "data": "ALL"
+            "data": "SINGLE"
           },
           "query": {
-            "data": "{ \"_id\": ObjectId({{Table3.selectedRow._id}}) }"
+            "data": ""
           },
           "update": {
-            "data": "{ \"$set\": {  \"ClientEmail\": \"{{cemail.text}}\",\n      \"ClientName\": \"{{ClientNC.text}}\",\n      \"EndDate\": \"{{EdateC.formattedDate}}\",\n      \"ProjectName\": \"{{project.text}}\",\n      \"StartDate\": \"{{StartDC.formattedDate}}\",\n      \"TeamSize\": \"{{TeamSC.text}}\", } }"
+            "data": ""
           }
         }
       }
@@ -99,30 +99,26 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.updateMany.query.data"
-      },
-      {
-        "key": "formData.updateMany.update.data"
+        "key": "formData.insert.documents.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "ClientNC.text",
-      "EdateC.formattedDate",
-      "StartDC.formattedDate",
-      "Table3.selectedRow._id",
-      "TeamSC.text",
-      "cemail.text",
-      "project.text"
+      "ClientN.text",
+      "Edate.formattedDate",
+      "ProjectN.text",
+      "Sdate.formattedDate",
+      "TeamS.text",
+      "cemail.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_update2",
+  "id": "Dashboard_sam_project",
   "deleted": false,
-  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f6fc2dd1a4ef5575594b7d"
+  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f71a17b5d69d3a732645c2"
 }

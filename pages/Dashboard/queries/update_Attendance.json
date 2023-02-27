@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "project_find",
+    "name": "update_Attendance",
     "datasource": {
       "name": "data",
       "pluginId": "mongo-plugin",
@@ -29,13 +29,13 @@
           }
         },
         "body": {
-          "data": "{\n  \"find\": \"project\",\n  \"filter\": {\n    \"Teamsize\": \"5\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
+          "data": "{\n  \"update\": \"Attendance\",\n  \"updates\": [\n    {\n      \"q\": {\n        \"_id\": ObjectId(\"id_of_document_to_update\")\n      },\n      \"u\": { \"$set\": { \"Checkin\": \"new value\" } }\n    }\n  ]\n}\n"
         },
         "collection": {
-          "data": "project"
+          "data": "Attendance"
         },
         "command": {
-          "data": "FIND"
+          "data": "UPDATE"
         },
         "count": {
           "query": {
@@ -59,16 +59,16 @@
           }
         },
         "find": {
+          "skip": {
+            "data": ""
+          },
           "query": {
             "data": ""
           },
-          "limit": {
-            "data": "10"
-          },
           "sort": {
-            "data": "{\"_id\": 1}"
+            "data": ""
           },
-          "skip": {
+          "limit": {
             "data": ""
           },
           "projection": {
@@ -85,29 +85,44 @@
         },
         "updateMany": {
           "limit": {
-            "data": "SINGLE"
+            "data": "ALL"
           },
           "query": {
-            "data": ""
+            "data": "{ \"_id\": ObjectId({{Table4.selectedRow._id}}) }"
           },
           "update": {
-            "data": ""
+            "data": "{ \"$set\": { \"Checkin\": \"{{incheck.text}}\",\n      \"Date\": \"{{empdat.formattedDate}}\",\n      \"Department\": \"{{empde.text}}\",\n      \"Employeeid\": \"{{idemp.text}}\",\n      \"Employeename\": \"{{EmpN.text}}\",\n      \n      \"checkout\": \"{{outcheck.text}}\", } }"
           }
         }
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.updateMany.query.data"
+      },
+      {
+        "key": "formData.updateMany.update.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "EmpN.text",
+      "Table4.selectedRow._id",
+      "empdat.formattedDate",
+      "empde.text",
+      "idemp.text",
+      "incheck.text",
+      "outcheck.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_project_find",
+  "id": "Dashboard_update_Attendance",
   "deleted": false,
-  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f3023162c0d536c41be962"
+  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f87d23a67ee26296a8c0ae"
 }

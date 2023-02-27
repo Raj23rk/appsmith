@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "project_delete",
+    "name": "find_pro",
     "datasource": {
       "name": "data",
       "pluginId": "mongo-plugin",
@@ -29,13 +29,13 @@
           }
         },
         "body": {
-          "data": "{\n  \"delete\": \"add_project\",\n  \"deletes\": [\n    {\n      \"q\": {\n        \"_id\": \"id_of_document_to_delete\"\n      },\n      \"limit\": 1\n    }\n  ]\n}\n"
+          "data": "{\n  \"find\": \"data2\",\n  \"filter\": {\n    \"_id\": ObjectId(\"id_to_query_with\")\n  }\n}\n"
         },
         "collection": {
-          "data": "add_project"
+          "data": "data2"
         },
         "command": {
-          "data": "DELETE"
+          "data": "FIND"
         },
         "count": {
           "query": {
@@ -47,7 +47,7 @@
             "data": "SINGLE"
           },
           "query": {
-            "data": "{ \"_id\": ObjectId({{Table3.selectedRow._id}}) }"
+            "data": ""
           }
         },
         "distinct": {
@@ -59,10 +59,10 @@
           }
         },
         "find": {
-          "skip": {
-            "data": ""
-          },
           "query": {
+            "data": "{\"_id\": ObjectId({{Table3.selectedRow._id}})}"
+          },
+          "skip": {
             "data": ""
           },
           "sort": {
@@ -96,10 +96,10 @@
         }
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "formData.delete.query.data"
+        "key": "formData.find.query.data"
       }
     ],
     "isValid": true,
@@ -113,7 +113,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dashboard_project_delete",
+  "id": "Dashboard_find_pro",
   "deleted": false,
-  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f705dad1a4ef5575594bf0"
+  "gitSyncId": "63e208b3ef0ac73ef4ace227_63f71ebed1a4ef5575594de8"
 }

@@ -1,0 +1,1287 @@
+{
+  "unpublishedPage": {
+    "name": "job page",
+    "slug": "job-page",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1360,
+          "containerStyle": "none",
+          "snapRows": 68,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 700,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Container1",
+              "borderColor": "#E0DEDE",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+              "searchTags": [
+                "div",
+                "parent",
+                "group"
+              ],
+              "topRow": 2,
+              "bottomRow": 128,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 18.53125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 1260,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 100,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Image7",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                      "topRow": 104,
+                      "bottomRow": 108,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 7.827972412109375,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 43,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHEAAAB6CAMAAAC/Z0whAAAAZlBMVEX////+/v4AAACpqang4OALCwuUlJT39/dDQ0NQUFA6OjoYGBjk5OTT09MGBgalpaW2trbIyMi8vLzs7OydnZ0jIyPZ2dmwsLBzc3MTExOGhoZ+fn7CwsJZWVkpKSk0NDRiYmJra2vN9B5hAAAD+UlEQVRoge2ai3KrIBCGd9VoTCUIEkwsub3/Sx4uak2iKRrPnDkz7HSqIvD5L7uAtoDQGf6cTthEhV/bPdYIxEAMxEAMxEAMxEAMxEAMxEAMxED8z4i/9+NvXkS0l1Uy36pXd3lqRCDn02a27U+5enaQ7zjyaKnFi7wKxUG3veTbeZZfdasNWaQxNU+7k5jNsiI3zb4XEc/R3ogswN8Qqq1us492i4h59EUvUXSo+jvjCYN9Q4RsF0UnerDEQW1v4l5Ko7KCt8S22ICtQlZ9LScSIJFV6UW0CiMOxXKiCblWpQcRMqNQwSdErRGtSh0++JZoXZo74KdEh7wWbzX2wBI+JlrkRudl8V6jA3Jb5VONupSdLHJqObNTfqvwc6Krwr4cchyIMHDpSkSL3E7MPmYMzxpYdwUrEPUdZRxbwZjptMgtsOtgFY1apYlYN+ENuzLn2dClqxDdPWWQ2chai/nQpesR0ap8diz2Lv0LxBEkmjE8W5cO265CdEYcsl+cdAs8u8QfNl6LqO8Ks7xvB0inMDo+Nl5NIzZu25T/LF7ZzRXdHiJqlewwEXI0avjeItEOrAXGRvm5Gjh2nchxvTduS5m7vMzubqMYG18nP8h1vGq3aKmpXnaOtc9ATTNTdCXrzjly5+SYOkblpeHpzgJtmVlcTsycrbV2EL1Z3pddg7Lfe9OuLrm4rMRViFrCppPQ9n+1vIP66aK4dC7+nOg0XbrIQLdGN8dGdU2wXz/SVfYA9m1gV3WDNGKu2AaSmQs+1vht0i17WqYerrAtsjXxU40u7zPn0rca21lQT4KfEKWdNxsEH6I+UDsA7VvAKOQX4ombcBB9pbdEayZXr/ywmLg5tCHvS2wTabOYGNm8R3y+M2noJotoERFtkB6e1mQPK7b6jfW2iGg2GVuazjVxe9zZ+RMRGs8vG692fxoGT42wGPn9PO6ekaOt4vF8K1+37r5E7xB9ASzX+JSBPk+AOJJOM4jv+DMeJBADMRADMRADMRADMRADMRADMRD/GvF3m1P3TUP/rzUrEfnyl++FRv8BcczMq3zWfSJ25j7pZthfQ3dYg2g6Kux3J4bdP9swe+DDv+2as6KGgqm05rQQjKQZ5SqlimLC5xEhSZMmVkl55DeSKloKeWQ0JpRyAomQoqz1KRQVMAFHApIVZSnSVMaigaSknNX1WMeTRICqJroLKWqgdc1oVstYKn4Gda+AVoqIRpIUZQFQJ3GDAguluEiOpBZZnKkmTr/HO57UWDRMcdXQmjREsLISLGZCsDSWNZENSWOaSGq8yo4ypYnK7qm+WahM61TAJGTlWMfTGv2iASfiHLsffyL2Bv2vp7KHU3itMwn8A98HN9DYbfbwAAAAAElFTkSuQmCC",
+                      "key": "2j1p92krcq",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 46,
+                      "objectFit": "cover",
+                      "widgetId": "d8mes8ztcp",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "originalTopRow": 39,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 43,
+                      "enableRotation": false
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Image1Copy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "maxZoomLevel"
+                        }
+                      ],
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                      "topRow": 96,
+                      "bottomRow": 102,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.4375,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "https://cooldreamers.com/assets/img/cool_logo.png",
+                      "key": "ryuf2ppxy1",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 16,
+                      "objectFit": "contain",
+                      "widgetId": "jrbyqzfaew",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": "1",
+                      "enableDownload": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "enableRotation": false
+                    },
+                    {
+                      "widgetName": "Text1Copy1Copy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 3,
+                      "bottomRow": 7,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 48,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Services",
+                      "key": "srf3n0s752",
+                      "isDeprecated": false,
+                      "rightColumn": 54,
+                      "textAlign": "CENTER",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "ymrz84vlh3",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2563eb",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text1Copy1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 3,
+                      "bottomRow": 7,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 56,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "About US",
+                      "key": "srf3n0s752",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "textAlign": "CENTER",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "f26086b5zp",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2563eb",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 3,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 9,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text1Copy",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 3,
+                      "bottomRow": 7,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 40,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Career",
+                      "key": "srf3n0s752",
+                      "isDeprecated": false,
+                      "rightColumn": 46,
+                      "textAlign": "CENTER",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "micfuh21qn",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2563eb",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Image1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "maxZoomLevel"
+                        }
+                      ],
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                      "topRow": 2,
+                      "bottomRow": 8,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 16.4375,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "https://cooldreamers.com/assets/img/cool_logo.png",
+                      "key": "ryuf2ppxy1",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 17,
+                      "objectFit": "contain",
+                      "widgetId": "fi90uwy5dh",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": "1",
+                      "enableDownload": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "enableRotation": false
+                    },
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 3,
+                      "bottomRow": 7,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Home",
+                      "key": "srf3n0s752",
+                      "isDeprecated": false,
+                      "rightColumn": 38,
+                      "textAlign": "CENTER",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "b2gnxpvpgc",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2563eb",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Container2",
+                      "borderColor": "#E0DEDE",
+                      "isCanvas": true,
+                      "displayName": "Container",
+                      "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+                      "searchTags": [
+                        "div",
+                        "parent",
+                        "group"
+                      ],
+                      "topRow": 8,
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "type": "CONTAINER_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "widgetName": "Canvas2",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 40,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 100,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [],
+                          "children": [],
+                          "key": "svoljftxqw",
+                          "isDeprecated": false,
+                          "rightColumn": 260.4951171875,
+                          "detachFromLayout": true,
+                          "widgetId": "sziu18fqfv",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "4vcu1ntdva",
+                          "renderMode": "CANVAS",
+                          "isLoading": false
+                        }
+                      ],
+                      "borderWidth": "1",
+                      "key": "4111qpxnza",
+                      "backgroundColor": "#2563eb",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "4vcu1ntdva",
+                      "containerStyle": "card",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 10
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Image2",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                      "topRow": 12,
+                      "bottomRow": 62,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "data:image/jpeg;base64,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",
+                      "key": "rovfg3ro5h",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "objectFit": "cover",
+                      "widgetId": "95wm9vunv4",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "enableRotation": false
+                    },
+                    {
+                      "widgetName": "Text2",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 62,
+                      "bottomRow": 66,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Available jobs",
+                      "key": "srf3n0s752",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "backgroundColor": "#2563eb",
+                      "textAlign": "CENTER",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "o9kgzzhpou",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#ffffffff",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 66,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 70,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Container3",
+                      "borderColor": "#d4d4d8",
+                      "isCanvas": true,
+                      "displayName": "Container",
+                      "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+                      "searchTags": [
+                        "div",
+                        "parent",
+                        "group"
+                      ],
+                      "topRow": 67,
+                      "bottomRow": 93,
+                      "parentRowSpace": 10,
+                      "type": "CONTAINER_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": true,
+                      "animateLoading": true,
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "widgetName": "Canvas3",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 260,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 100,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "dynamicBindingPathList": [],
+                          "children": [
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "Button1Copy2",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 18,
+                              "bottomRow": 22,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 34,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "Apply Now",
+                              "isDisabled": false,
+                              "key": "melv18amp1",
+                              "isDeprecated": false,
+                              "rightColumn": 44,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "qsmyttktmx",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY",
+                              "placement": "CENTER"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "Button1Copy1",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 18,
+                              "bottomRow": 22,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 19,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "Apply Now",
+                              "isDisabled": false,
+                              "key": "melv18amp1",
+                              "isDeprecated": false,
+                              "rightColumn": 29,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "mhw4gfvng8",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY",
+                              "placement": "CENTER"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "Button1Copy",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 18,
+                              "bottomRow": 22,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "Apply Now",
+                              "isDisabled": false,
+                              "key": "melv18amp1",
+                              "isDeprecated": false,
+                              "rightColumn": 12,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "96shgie4u6",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY",
+                              "placement": "CENTER"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Image3",
+                              "displayName": "Image",
+                              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                              "topRow": 3,
+                              "bottomRow": 15,
+                              "parentRowSpace": 10,
+                              "type": "IMAGE_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "imageShape": "RECTANGLE",
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "defaultImage": "data:image/jpeg;base64,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",
+                              "key": "iwuesk0wjf",
+                              "image": "",
+                              "isDeprecated": false,
+                              "rightColumn": 13,
+                              "objectFit": "cover",
+                              "widgetId": "4p5iilecjk",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "maxZoomLevel": 1,
+                              "enableDownload": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "enableRotation": false
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "Button1",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 18,
+                              "bottomRow": 22,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 51,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "Apply Now",
+                              "isDisabled": false,
+                              "key": "melv18amp1",
+                              "isDeprecated": false,
+                              "rightColumn": 61,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "e52s3yv6xi",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY",
+                              "placement": "CENTER"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Image4",
+                              "displayName": "Image",
+                              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                              "topRow": 3,
+                              "bottomRow": 15,
+                              "parentRowSpace": 10,
+                              "type": "IMAGE_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "imageShape": "RECTANGLE",
+                              "leftColumn": 18,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "defaultImage": "data:image/png;base64,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",
+                              "key": "iwuesk0wjf",
+                              "image": "",
+                              "isDeprecated": false,
+                              "rightColumn": 30,
+                              "objectFit": "cover",
+                              "widgetId": "pmta79zdqo",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "maxZoomLevel": 1,
+                              "enableDownload": true,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "enableRotation": true
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Image5",
+                              "displayName": "Image",
+                              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                              "topRow": 3,
+                              "bottomRow": 15,
+                              "parentRowSpace": 10,
+                              "type": "IMAGE_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "imageShape": "RECTANGLE",
+                              "leftColumn": 34,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "defaultImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMY7lljAPcvhuCsRp8zl7pYCY2SxhmNpvRaNT0VbLCzlIp3CnS_Yeb_JCW39xCArU_9Js&usqp=CAU",
+                              "key": "iwuesk0wjf",
+                              "image": "",
+                              "isDeprecated": false,
+                              "rightColumn": 46,
+                              "objectFit": "cover",
+                              "widgetId": "xn8biqocqy",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "maxZoomLevel": 1,
+                              "enableDownload": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "enableRotation": false
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Image6",
+                              "displayName": "Image",
+                              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+                              "topRow": 3,
+                              "bottomRow": 15,
+                              "parentRowSpace": 10,
+                              "type": "IMAGE_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 14.531890869140625,
+                              "dynamicTriggerPathList": [],
+                              "imageShape": "RECTANGLE",
+                              "leftColumn": 50,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "defaultImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrUp3li_D1Lbnln4AjI5ZO86C_2OD-9sHTRw&usqp=CAU",
+                              "key": "iwuesk0wjf",
+                              "image": "",
+                              "isDeprecated": false,
+                              "rightColumn": 62,
+                              "objectFit": "cover",
+                              "widgetId": "gn614rrly7",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "heafwzy3zk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "maxZoomLevel": 1,
+                              "enableDownload": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "enableRotation": false
+                            }
+                          ],
+                          "key": "4b3b9yvffo",
+                          "isDeprecated": false,
+                          "rightColumn": 367.7578125,
+                          "detachFromLayout": true,
+                          "widgetId": "heafwzy3zk",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "4wufm35d7g",
+                          "renderMode": "CANVAS",
+                          "isLoading": false
+                        }
+                      ],
+                      "borderWidth": "1",
+                      "key": "dm38g1z9r7",
+                      "backgroundColor": "#FFFFFF",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "4wufm35d7g",
+                      "containerStyle": "card",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 10
+                    },
+                    {
+                      "widgetName": "Text3",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 104,
+                      "bottomRow": 119,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "Poppins",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Cool Dreamers is a software development and consultancy organization with the main aim of providing customized software solutions required by its clients overseas and locally. At Cool Dreamers, we create elegant software to solve all business problems.",
+                      "key": "05j7mxcmua",
+                      "isDeprecated": false,
+                      "rightColumn": 26,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "d90i4t3ggz",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 104,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 119,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text4",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 98,
+                      "bottomRow": 102,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 32,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Usefull Link",
+                      "key": "05j7mxcmua",
+                      "isDeprecated": false,
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "fkdwoimmgd",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2563eb",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text5",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 105,
+                      "bottomRow": 116,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 34,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "About\n\nProducts\n\nContact us",
+                      "key": "05j7mxcmua",
+                      "isDeprecated": false,
+                      "rightColumn": 40,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "y4vudbon3q",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 105,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 116,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text6",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 97,
+                      "bottomRow": 101,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 49,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Contact US",
+                      "key": "05j7mxcmua",
+                      "isDeprecated": false,
+                      "rightColumn": 57,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "m1tc9xahkr",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#2563eb",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "widgetName": "Text7",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 104,
+                      "bottomRow": 108,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 15.3232421875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 46,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "support@cooldreamers.com",
+                      "key": "05j7mxcmua",
+                      "isDeprecated": false,
+                      "rightColumn": 61,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "kql88rg6t1",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "74g35hpyy3",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "svoljftxqw",
+                  "isDeprecated": false,
+                  "rightColumn": 444.75,
+                  "detachFromLayout": true,
+                  "widgetId": "74g35hpyy3",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "h1gy0sxol2",
+                  "renderMode": "CANVAS",
+                  "isLoading": false
+                }
+              ],
+              "borderWidth": "1",
+              "key": "4111qpxnza",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 59,
+              "dynamicHeight": "FIXED",
+              "widgetId": "h1gy0sxol2",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "1.5rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 10
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "job page",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63e208b3ef0ac73ef4ace227_63fc5996a184430810663b32"
+}

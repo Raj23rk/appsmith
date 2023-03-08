@@ -1137,7 +1137,7 @@
                                       "isVisibleDownload": true,
                                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
                                       "topRow": 3,
-                                      "isSortable": true,
+                                      "isSortable": false,
                                       "type": "TABLE_WIDGET_V2",
                                       "inlineEditingSaveOption": "ROW_LEVEL",
                                       "animateLoading": true,
@@ -1222,7 +1222,7 @@
                                       "delimiter": ",",
                                       "defaultSelectedRowIndex": 0,
                                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                                      "isVisibleFilters": true,
+                                      "isVisibleFilters": false,
                                       "isVisible": true,
                                       "enableClientSideSearch": true,
                                       "version": 1,
@@ -1847,7 +1847,7 @@
                                       "parentId": "tkl9wosv7g",
                                       "renderMode": "CANVAS",
                                       "horizontalAlignment": "LEFT",
-                                      "isVisibleSearch": true,
+                                      "isVisibleSearch": false,
                                       "isVisiblePagination": true,
                                       "verticalAlignment": "CENTER"
                                     }
@@ -2679,7 +2679,7 @@
                               "borderColor": "#E0DEDE",
                               "isVisibleDownload": true,
                               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                              "topRow": 17,
+                              "topRow": 18,
                               "isSortable": true,
                               "type": "TABLE_WIDGET_V2",
                               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -2734,7 +2734,7 @@
                                   "key": "primaryColumns.customColumn2.boxShadow"
                                 }
                               ],
-                              "leftColumn": 1,
+                              "leftColumn": 2,
                               "delimiter": ",",
                               "defaultSelectedRowIndex": 0,
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -2791,7 +2791,7 @@
                                 }
                               ],
                               "displayName": "Table",
-                              "bottomRow": 45,
+                              "bottomRow": 53,
                               "columnWidthMap": {
                                 "task": 245,
                                 "step": 62,
@@ -3084,7 +3084,7 @@
                               "key": "92uwik468b",
                               "canFreezeColumn": false,
                               "isDeprecated": false,
-                              "rightColumn": 60,
+                              "rightColumn": 63,
                               "textSize": "0.875rem",
                               "widgetId": "y3vfb6bgms",
                               "tableData": "{{get_Attendance.data}}",
@@ -3104,35 +3104,6 @@
                           "rightColumn": 861,
                           "detachFromLayout": true,
                           "widgetId": "w77prq3zmb",
-                          "containerStyle": "none",
-                          "isVisible": true,
-                          "version": 1,
-                          "parentId": "7yjc4wa479",
-                          "renderMode": "CANVAS",
-                          "isLoading": false
-                        },
-                        {
-                          "tabId": "tabf0ai86qq7u",
-                          "widgetName": "Canvas6",
-                          "displayName": "Canvas",
-                          "topRow": 1,
-                          "bottomRow": 780,
-                          "parentRowSpace": 1,
-                          "type": "CANVAS_WIDGET",
-                          "canExtend": false,
-                          "hideCard": true,
-                          "minHeight": 770,
-                          "parentColumnSpace": 1,
-                          "dynamicTriggerPathList": [],
-                          "leftColumn": 0,
-                          "dynamicBindingPathList": [],
-                          "children": [],
-                          "key": "7gh9wxcuoz",
-                          "isDeprecated": false,
-                          "tabName": "Holidays",
-                          "rightColumn": 861,
-                          "detachFromLayout": true,
-                          "widgetId": "xp5yoxo7gn",
                           "containerStyle": "none",
                           "isVisible": true,
                           "version": 1,
@@ -3268,30 +3239,23 @@
                           "widgetId": "w77prq3zmb",
                           "isVisible": true
                         },
-                        "tabf0ai86qq7u": {
-                          "id": "tabf0ai86qq7u",
-                          "index": 4,
-                          "label": "Holidays",
-                          "widgetId": "xp5yoxo7gn",
-                          "isVisible": true
-                        },
                         "tabp1e0h5bu45": {
                           "id": "tabp1e0h5bu45",
-                          "index": 5,
+                          "index": 4,
                           "label": "Payroll",
                           "widgetId": "thxt8aucws",
                           "isVisible": true
                         },
                         "tab1ofsc11yvs": {
                           "id": "tab1ofsc11yvs",
-                          "index": 6,
+                          "index": 5,
                           "label": "job",
                           "widgetId": "wfkoj4cinh",
                           "isVisible": true
                         },
                         "tab6b5va5qc0b": {
                           "id": "tab6b5va5qc0b",
-                          "index": 7,
+                          "index": 6,
                           "label": "Calender",
                           "widgetId": "adhfud6yyg",
                           "isVisible": true
@@ -7779,13 +7743,13 @@
                   "widgetName": "Canvas25",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 630,
+                  "bottomRow": 700,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 632,
+                  "minHeight": 706,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -7896,7 +7860,7 @@
                         "group"
                       ],
                       "topRow": 8,
-                      "bottomRow": 58,
+                      "bottomRow": 68,
                       "parentRowSpace": 10,
                       "type": "FORM_WIDGET",
                       "hideCard": false,
@@ -7918,7 +7882,7 @@
                           "widgetName": "Canvas26",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 500,
+                          "bottomRow": 600,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -7989,12 +7953,12 @@
                                 "click",
                                 "submit"
                               ],
-                              "topRow": 44,
-                              "bottomRow": 48,
+                              "topRow": 53,
+                              "bottomRow": 57,
                               "type": "BUTTON_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
-                              "leftColumn": 42,
+                              "leftColumn": 40,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -8007,7 +7971,7 @@
                               "isDisabled": false,
                               "key": "xu8pasveyd",
                               "isDeprecated": false,
-                              "rightColumn": 58,
+                              "rightColumn": 56,
                               "isDefaultClickDisabled": true,
                               "widgetId": "acivrjq2e0",
                               "isVisible": true,
@@ -8033,8 +7997,8 @@
                                 "click",
                                 "submit"
                               ],
-                              "topRow": 44,
-                              "bottomRow": 48,
+                              "topRow": 52,
+                              "bottomRow": 56,
                               "type": "BUTTON_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
@@ -8043,7 +8007,7 @@
                                   "key": "onClick"
                                 }
                               ],
-                              "leftColumn": 3,
+                              "leftColumn": 0,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
@@ -8056,7 +8020,7 @@
                               "isDisabled": false,
                               "key": "xu8pasveyd",
                               "isDeprecated": false,
-                              "rightColumn": 19,
+                              "rightColumn": 16,
                               "isDefaultClickDisabled": true,
                               "widgetId": "p5o6b01mnu",
                               "isVisible": true,
@@ -8197,8 +8161,8 @@
                                 "number",
                                 "textarea"
                               ],
-                              "topRow": 22,
-                              "bottomRow": 26,
+                              "topRow": 30,
+                              "bottomRow": 34,
                               "parentRowSpace": 10,
                               "labelWidth": "13",
                               "autoFocus": false,
@@ -8254,8 +8218,8 @@
                               "searchTags": [
                                 "calendar"
                               ],
-                              "topRow": 29,
-                              "bottomRow": 33,
+                              "topRow": 37,
+                              "bottomRow": 41,
                               "shortcuts": false,
                               "parentRowSpace": 10,
                               "labelWidth": "13",
@@ -8310,8 +8274,8 @@
                               "searchTags": [
                                 "calendar"
                               ],
-                              "topRow": 37,
-                              "bottomRow": 41,
+                              "topRow": 45,
+                              "bottomRow": 49,
                               "shortcuts": false,
                               "parentRowSpace": 10,
                               "labelWidth": "13",
@@ -8320,7 +8284,7 @@
                               "animateLoading": true,
                               "parentColumnSpace": 6.7412109375,
                               "dynamicTriggerPathList": [],
-                              "leftColumn": 1,
+                              "leftColumn": 2,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "accentColor"
@@ -8336,7 +8300,7 @@
                               "labelTextSize": "0.875rem",
                               "isRequired": true,
                               "isDeprecated": false,
-                              "rightColumn": 61,
+                              "rightColumn": 62,
                               "dynamicHeight": "FIXED",
                               "widgetId": "ctf4w0gmb8",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -8354,6 +8318,64 @@
                               "firstDayOfWeek": 0,
                               "closeOnSelection": true,
                               "maxDate": "2121-12-31T18:29:00.000Z",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Input1",
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                              "searchTags": [
+                                "form",
+                                "text input",
+                                "number",
+                                "textarea"
+                              ],
+                              "topRow": 22,
+                              "bottomRow": 26,
+                              "parentRowSpace": 10,
+                              "labelWidth": "13",
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET_V2",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 6.7412109375,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "labelPosition": "Left",
+                              "labelStyle": "BOLD",
+                              "inputType": "TEXT",
+                              "placeholderText": "Enter  your de",
+                              "isDisabled": false,
+                              "key": "3fm9l3vl1m",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": false,
+                              "isDeprecated": false,
+                              "rightColumn": 62,
+                              "dynamicHeight": "FIXED",
+                              "widgetId": "ypv94ltu1i",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "showStepArrows": false,
+                              "isVisible": true,
+                              "label": "Department",
+                              "version": 2,
+                              "parentId": "18fhkwr1p5",
+                              "labelAlignment": "left",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "iconAlign": "left",
+                              "defaultText": "",
                               "minDynamicHeight": 4
                             }
                           ],
@@ -8400,7 +8422,7 @@
                 }
               ],
               "key": "ub24ns3kl4",
-              "height": 632,
+              "height": 706,
               "isDeprecated": false,
               "rightColumn": 35,
               "detachFromLayout": true,
